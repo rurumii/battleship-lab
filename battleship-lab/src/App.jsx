@@ -46,7 +46,7 @@ const MyBoard = ({ board, setBoard }) => {
           ))
         ))}
       </div>
-      <p className="text-xs text-slate-400 mt-4 text-center font-mono">> CLICK TO DEPLOY UNIT</p>
+      <p className="text-xs text-slate-400 mt-4 text-center font-mono">&gt; CLICK TO DEPLOY UNIT</p>
     </div>
   );
 };
@@ -84,7 +84,7 @@ const EnemyBoard = ({ board, setBoard }) => {
           ))
         ))}
       </div>
-      <p className="text-xs text-slate-400 mt-4 text-center font-mono">> TARGET CONFIRMATION REQUIRED</p>
+      <p className="text-xs text-slate-400 mt-4 text-center font-mono">&gt; TARGET CONFIRMATION REQUIRED</p>
     </div>
   );
 };
