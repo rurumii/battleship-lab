@@ -1,4 +1,4 @@
-# Bitwa Morska - Projekt Lab 6
+# Bitwa Morska 
 
 Aplikacja webowa realizująca temat nr 8: Komponenty do gry w bitwę morską. Projekt pozwala na interaktywne ustawianie statków oraz symulowanie rozgrywki z zapisem stanu w chmurze.
 
