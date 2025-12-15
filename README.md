@@ -3,7 +3,7 @@
 Aplikacja webowa realizująca temat nr 8: Komponenty do gry w bitwę morską. Projekt pozwala na interaktywne ustawianie statków oraz symulowanie rozgrywki z zapisem stanu w chmurze.
 
 ## 🔗 Wersja Live 
-[link](https://battleship-l1r080ebw-rurumis-projects.vercel.app)
+[Link](https://battleship-lab.vercel.app)
 
 ## 🛠 Technologie
 Projekt został zrealizowany w oparciu o nowoczesny stack technologiczny (React SPA):
