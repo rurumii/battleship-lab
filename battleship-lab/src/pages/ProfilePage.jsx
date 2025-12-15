@@ -30,10 +30,10 @@ const ProfilePage = ({ user }) => {
         email: user.email,
         updatedAt: new Date()
       });
-      setMsg("Профиль обновлен!");
+      setMsg("Profil zaktualizowany!");
       setTimeout(() => setMsg(""), 3000);
     } catch (e) {
-      setMsg("Ошибка сохранения: " + e.message);
+      setMsg("Błąd zapisu: " + e.message);
     }
   };
 
