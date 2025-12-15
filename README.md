@@ -15,6 +15,3 @@ Aplikacja internetowa typu SPA (Single Page Application) realizująca grę w sta
 * **Frontend:** React 18, Vite, React Router
 * **Style:** Tailwind CSS
 * **Backend:** Firebase (Authentication + Firestore)
-
-## 👤 Autor
-Karina Levosiuk
