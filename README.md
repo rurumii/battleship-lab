@@ -1,20 +1,17 @@
 # Bitwa Morska 
 
-Aplikacja webowa realizująca temat nr 8: Komponenty do gry w bitwę morską. Projekt pozwala na interaktywne ustawianie statków oraz symulowanie rozgrywki z zapisem stanu w chmurze.
+Aplikacja internetowa typu SPA (Single Page Application) realizująca grę w statki
 
-## 🔗 Wersja Live 
-[Link](https://battleship-lab.vercel.app)
+## 🔗 Demo
+[Link do aplikacji](https://battleship-lab.vercel.app/)
+
+## 📝 Funkcjonalności
+* **Logowanie:** Obsługa kont Google oraz rejestracja przez Email/Hasło.
+* **Profil Użytkownika:** Możliwość zmiany nicku oraz ustawienia awatara.
+* **Gra:** Interaktywne plansze (własna i przeciwnika).
+* **Baza danych:** Stan gry i dane profilu są zapisywane w Google Firebase (Firestore) i przywracane po odświeżeniu strony.
 
 ## 🛠 Technologie
-Projekt został zrealizowany w oparciu o nowoczesny stack technologiczny (React SPA):
-* **React 18** + **Vite** (Szybki build i HMR)
-* **Tailwind CSS** (Stylowanie Utility-first)
-* **Firebase Authentication** (Logowanie Google)
-* **Cloud Firestore** (Baza danych NoSQL do zapisu stanu gry)
-
-## 📋 Funkcjonalności
-1.  **Uwierzytelnianie:** Bezpieczne logowanie za pomocą konta Google.
-2.  **Edytor Planszy:** Interaktywny komponent do ustawiania statków (limit 20 masztów).
-3.  **Radar Przeciwnika:** Komponent do oznaczania trafień i pudeł na planszy wroga.
-4.  **Zapis w Chmurze:** Stan obu plansz jest synchronizowany z bazą Firebase i przywracany po ponownym wejściu.
-5.  **RWD:** Pełna responsywność (układ dostosowuje się do telefonów i desktopów).
+* **Frontend:** React 18, Vite, React Router
+* **Style:** Tailwind CSS
+* **Backend:** Firebase (Authentication + Firestore)
